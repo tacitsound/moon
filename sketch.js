@@ -3,13 +3,17 @@ function setup() {
 }
 
 function draw() {
-  background(220);
+  background(0);
   drawTarget(width/2, height/2);
-  ellipse(width/2, height/2, 100, 100);
-  ellipse(width/2, height/2, 66, 66);
-  ellipse(width/2, height/2, 33, 33);
 }
 
 function drawTarget(x, y) {
-
+  fill(200, 0, 50); 
+  strokeWeight(3);
+  stroke(255, 255, 255);
+  ellipse(width/2, height/2, 100, 100);
+  fill(20, 200, 0);
+  ellipse(width/2, height/2, 66, 66);
+  fill(0, 150, 180);
+  ellipse(width/2, height/2, 33, 33)
 }
